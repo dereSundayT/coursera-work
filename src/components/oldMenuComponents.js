@@ -35,3 +35,5 @@ class Menu extends Component {
 }
 
 export default Menu;
+
+onClick={() => onClick(dish.id)}
