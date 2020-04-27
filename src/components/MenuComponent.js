@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 
 import { Card, CardImg, CardImgOverlay, CardTitle , Breadcrumb, BreadcrumbItem } from 'reactstrap';
@@ -28,7 +28,6 @@ const Menu = (props) => {
   return (
     <div className='container'>
       <div className='row'>
-       
           <Breadcrumb>
               <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
               <BreadcrumbItem active>Menu</BreadcrumbItem>
